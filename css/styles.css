@@ -10,3 +10,35 @@ h1 {
     font-style: italic;
     font-size: 100px;
 }
+ul {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#navBar {
+    margin-left: 500px;
+    margin-right: 500px;
+    width: 2000px;
+    display:flex;
+}
+#navBar li {
+    display: block;
+    width: 300px;
+    float: left;
+    margin-left: 4px;
+    border: 2px double #8349b4;
+    font-size: 20px;
+}
+#navBar a {
+    color: #660db1;
+    background-color: #e3ccf6;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+#navBar a:hover {
+    color: rgb(237, 124, 124);
+    background-color: #006; 
+}
